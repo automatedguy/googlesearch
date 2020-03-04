@@ -5,7 +5,7 @@ Feature: Google tests sample
     Given I navigate to Google home page
     When I type search pattern "<pattern>"
     And I click on Search button
-    Then I found match
+    Then I found "<pattern>" match
 
     Examples:
       | pattern |
